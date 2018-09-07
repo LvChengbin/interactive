@@ -1,0 +1,33 @@
+{
+    "name": "@lvchengbin/interactive",
+    "version": "0.0.2",
+    "description": "A simple utility for building togglable interactive cli tool easily in node.js.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LvChengbin/interactive.git"
+    },
+    "keywords": [
+        "interactive",
+        "cli",
+        "command",
+        "readline",
+        "stdin"
+    ],
+    "author": "LvChengbin <lvchengbin59@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/LvChengbin/interactive/issues"
+    },
+    "homepage": "https://github.com/LvChengbin/interactive#readme",
+    "dependencies": {
+        "@lvchengbin/escape": "0.0.3",
+        "@lvchengbin/is": "0.0.22",
+        "cli-style": "0.0.3",
+        "strip-ansi": "^4.0.0"
+    },
+    "devDependencies": {}
+}
