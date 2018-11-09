@@ -25,9 +25,9 @@
     "homepage": "https://github.com/LvChengbin/interactive#readme",
     "dependencies": {
         "@lvchengbin/escape": "0.0.3",
-        "@lvchengbin/is": "0.0.22",
+        "@lvchengbin/is": "0.0.24",
         "cli-style": "0.0.3",
-        "strip-ansi": "^4.0.0"
+        "strip-ansi": "^5.0.0"
     },
     "devDependencies": {}
 }
