@@ -1,5 +1,7 @@
 # Interactive
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/LvChengbin/interactive.svg)](https://greenkeeper.io/)
+
 A simple utility for building togglable interactive cli tool easily in node.js.
 
 <!-- vim-markdown-toc GFM -->
