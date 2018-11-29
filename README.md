@@ -40,14 +40,6 @@ const Interactive = require( '@lvchengbin/interactive' );
 const interactive = new Interactive( {
     title : 'Interactive Mode',
     prompt : '~~> ',
-    instructions : {
-        start : 'Start Interactive Mode',
-        pause : 'Pause Interactive Mode'
-    },
-    oo : 'CTRL+Y',
-    keys : {
-        'show .' : '\b'
-    },
     completions : [ 'show', 'hide' ],
     exit : true,
     help : {
@@ -208,5 +200,5 @@ To create a new instance, and it will start to listen to the input.
 
 ### Event:keypress
 
- The `'keypress'` event is emitted while any keys are pressed. The callback function will accept two arguments, the `chunk` and the `key` object.
+ The `'keypress'` event is emitted while any keys are pressed. Two arguments will be passed to the callback function: the `chunk` and the `key` object. This event is emitted all the time even if the interactive moid is paused.
 
